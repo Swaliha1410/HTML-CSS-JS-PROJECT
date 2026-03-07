@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #548687;
+  text-align: center;
+}
+
+.containter
+{ 
+  height: 70vh;
+  /* height: 70vh; 
+  70% of view port height-- jitna page visible hoga uska 70% part containrer ke pass rahega */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1.5vmin;
+
+}
+.game
+{
+  height: 60vmin; 
+  /* container se 60% approx */
+  width:60vmin;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:1.5vmin;
+}
+.box
+{
+  height: 18vmin;
+  /* 60 % ke teen part approx */
+  width: 18vmin;
+  border-radius: 1rem;
+  border:none;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  font-size: 8vmin;
+  color:maroon;
+  background-color: #ffffc7;
+}
+.reset
+{
+  padding: 1rem;
+  font-size :1.25em;
+  background-color: #191913;
+  color: #fff;
+  border: 1rem;
+  border: none;
+}
+.msg-container
+{
+  /* height: 30vmin; */
+  color:cornsilk;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 12px;
+
+}
+.hide
+{
+  display: none;
+}
